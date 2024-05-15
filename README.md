@@ -6,9 +6,11 @@
     <td> Need Id </td>
     <td> REQ-2024Q1-06 Audit Log </td>
   </table>
+  <table>
   <tr>
     <td> Classification </td>
     <td> Business </td>
+  </table>
   
 ### 2. LIST OF FUNCTIONAL REQUIREMENTS
 | Request ID | Request | Acceptance criteria | Associated BR|
