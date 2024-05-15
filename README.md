@@ -1,15 +1,15 @@
 ## SOFTWARE REQUIREMENTS SPECIFICATIONS (SRS)
 
 ### 1. GENERAL DETAILS OF THE REQUEST
-|Need ID                   |REQ-2024Q1-06 Audit Log |
-|------------------------- |------------------------|
-|Classification            |Business                |
-|Requester                 |José Ángel Reyes        |
-|Requesting area           |Management              |
-|Name of the requirement   |Audit Log               |
-|Date of request           |May 08, 2024            |
-|Receiver                  |Eddy Zavaleta           |
-
+<table>
+  <tr>
+    <td> Need Id </td>
+    <td> REQ-2024Q1-06 Audit Log </td>
+  </table>
+  <tr>
+    <td> Classification </td>
+    <td> Business </td>
+  
 ### 2. LIST OF FUNCTIONAL REQUIREMENTS
 | Request ID | Request | Acceptance criteria | Associated BR|
 |:----------:|---------|---------------------|:------------:|
