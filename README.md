@@ -21,9 +21,17 @@
 |FR6| Create a service that registers the actions that each user performs within the APIs application.|Since it is required to have a log of the activities that users perform within APIs, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. |BR1, BR2|
 
 ### 3. PRECONDITIONS
-|ID PC  |Preconditions|
-|:-----:|:-----------:|
-| NA    | NA          |
+<table>
+  <tr>
+    <td> ID PC </td>
+    <td> Preconditions </td>
+  </tr>
+  <tr> 
+    <td> NA </td>
+    <td> NA </td>
+  </tr>
+</table>
+
 
 ### 4. BUSINESS RULES
 |BR ID   |Business rule |
