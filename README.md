@@ -13,14 +13,19 @@
   </table>
   
 ### 2. LIST OF FUNCTIONAL REQUIREMENTS
-| Request ID | Request | Acceptance criteria | Associated BR|
-|:----------:|---------|---------------------|:------------:|
-|FR1|Create a service that registers the actions that each user performs within the Titania application.|Since it is required to have a log of the activities that users perform within Titania, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. |BR1, BR2|
-|FR2| Create a service that registers the actions that each user performs within the Data application.|Since it is required to have a log of the activities that users perform within Titania, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. |BR1, BR2|
-|FR3| Create a service that registers the actions that each user performs within the Builder application.|Since it is required to have a log of the activities that users perform within Builder, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. |BR1, BR2|
-|FR4| Create a service that registers the actions that each user performs within the Account Manager application.|Since it is required to have a log of the activities that users perform within Account Manager, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. |BR1, BR2|
-|FR5| Create a service that registers the actions that each user performs within the Excel AddIn application.|Since it is required to have a log of the activities that users perform within Excel AddIn, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. |BR1, BR2|
-|FR6| Create a service that registers the actions that each user performs within the APIs application.|Since it is required to have a log of the activities that users perform within APIs, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. |BR1, BR2|
+<table>
+  <tr>
+    <td> Request ID </td>
+    <td> Request </td>
+    <td> Acceptance criteria </td>
+    <td> Associated BR </td>
+  </tr>
+  <tr>
+    <td> FR1 </td>
+    <td> Create a service that registers the actions that each user performs within the Titania application.|Since it is required to have a log of the activities that users perform within Titania, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. </td>
+    <td> BR1, BR2 </td>
+  </tr>
+</table>
 
 ### 3. PRECONDITIONS
 <table>
