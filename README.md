@@ -35,12 +35,10 @@
 ### 2. LIST OF FUNCTIONAL REQUIREMENTS
 <table>
   <tr>
-    <center> 
     <td> Request ID </td>
     <td> Request </td>
     <td> Acceptance criteria </td>
     <td> Associated BR </td>
-    </center>
   </tr>
   <tr>
     <td> FR1 </td>
