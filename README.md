@@ -64,26 +64,78 @@
 
 
 ### 4. BUSINESS RULES
-|BR ID   |Business rule |
-|:------:|--------------|
-|BR1| <p> For auditing purposes, the following data must be saved for each action performed by a given user within the applications used in Tequila Capital:</p> <p> &#160; &#160; &#160; * ID event: Event number indicator. </p> <p> &#160; &#160; &#160; * Date time: Date - time at which the event occurs. </p> <p> &#160; &#160; &#160; * IP: IP of the device the user is logging in from.</p> <p> &#160; &#160; &#160; * User: User logging in. </p> <p> &#160; &#160; &#160; * Action: It states the activity that the user performs. </p> <p> &#160; &#160; &#160; * Data/ info: Describes the changes that the user makes within the application, showing the previous value and the new value. </p> <p> &#160; &#160; &#160; * Applicative: Within Tequila Capital, the following applications are available: Titania, Data, Builder, Account Manager, Excel AddIn y APIs, it shall be recorded in which of them the event carried out by a user generates impact. </p>|
-|BR2| The values resulting from the log must be persisted in a file or table exclusively accessible by the service administrator user.|
-|BR3| The records shall be unalterable.|
-|BR4| A log shall be kept of the actions that the system automatically performs.| 
+<table>
+  <tr>
+    <td> BR ID </td>
+    <td> Business rule </td>
+  </tr>
+  <tr>
+    <td> BR1 </td>
+    <td> <p> For auditing purposes, the following data must be saved for each action performed by a given user within the applications used in Tequila 
+     Capital:</p> <p> &#160; &#160; &#160; * ID event: Event number indicator. </p> <p> &#160; &#160; &#160; * Date time: Date - time at which the event 
+     occurs. </p> <p> &#160; &#160; &#160; * IP: IP of the device the user is logging in from.</p> <p> &#160; &#160; &#160; * User: User logging in. </p> 
+     <p> &#160; &#160; &#160; * Action: It states the activity that the user performs. </p> <p> &#160; &#160; &#160; * Data/ info: Describes the changes 
+     that the user makes within the application, showing the previous value and the new value. </p> <p> &#160; &#160; &#160; * Applicative: Within Tequila 
+     Capital, the following applications are available: Titania, Data, Builder, Account Manager, Excel AddIn y APIs, it shall be recorded in which of them 
+     the event carried out by a user generates impact. </p> </td>
+  </tr>
+  <tr>
+     <td> BR2 </td>
+     <td> The values resulting from the log must be persisted in a file or table exclusively accessible by the service administrator user. </td>
+  </tr>
+  <tr>
+     <td> BR3 </td> 
+     <td> The records shall be unalterable. </td>
+  </tr>
+  <tr>
+    <td> BR4 </td>
+    <td> A log shall be kept of the actions that the system automatically performs. </td>
+  </tr>
+</table>
 
 ### 5. LIST OF NON - FUNCTIONAL REQUIREMENTS
-|NFR ID |Non - Functional requirements |Module / System | 
-|:-----:|------------------------------|----------------|
-|NFR1|The system shall be protected against unauthorised access.|Titania, Data, Builder, Account manager, Excel AddIn, APIs.|                              
-|NFR2|The service shall support n number of registrations without compromising performance.|Titania, Data, Builder, Account manager, Excel AddIn, APIs.|
-|NFR3|The records generated should be durable, they can be archived but not deleted.|Titania, Data, Builder, Account manager, Excel AddIn, APIs.|
+<table>
+  <tr>
+    <td> NFR ID </td>
+    <td> Non - Functional requirements </td>
+    <td> Module / System </td>
+  </tr>
+  <tr>
+    <td> NFR1 </td>
+    <td> The system shall be protected against unauthorised access. </td>
+    <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
+  </tr>
+  <tr>
+    <td> NFR2 </td>
+    <td> The service shall support n number of registrations without compromising performance. </td>
+    <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
+  </tr>
+  <tr>
+    <td> NFR3 </td>
+    <td> The records generated should be durable, they can be archived but not deleted. </td>
+    <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
+  </tr>
+</table>
 
 ### 6. DEVELOPMENT OFFICERS
-|Name |Rol |
-|-----|----|
-|Eddy Zavaleta| Manager|
-|Julio Pérez| Backend Team leader|
-|Luis Fábregas| QA team leader|
+<table>
+  <tr>
+    <td> Name </td>
+    <td> Role </td>
+  </tr>
+  <tr>
+    <td> Eddy Zavaleta </td>
+    <td> Manager </td>
+  </tr>
+  <tr>
+    <td> Julio Pérez </td>
+    <td> Backend Team leader </td>
+  </tr>
+  <tr>
+    <td> Luis Fábregas </td>
+    <td> QA team leader </td>
+  </tr>
+</table>
 
 ### 7. PRODUCT ASSUMPTIONS
 <p align="justify"> 1. The documents must be reviewed and approved by the user area.</p>
@@ -102,15 +154,38 @@
    * <p align="justify"> No improvements or changes are envisaged after acceptance of the requirements document at the beginning, during and at the end of the product development; where appropriate, the feasibility of a change control shall be stated. </p> 
 
 ### 10. GLOSSARY OF TERMS
-|Term |Definition |
-|-----|-----------|
-|FR | Functional Requirement.|
-|BR | Regla de negocio.|
-|PC | Precondiciones.| 
-|NFR| Non - Functional Requirement.|
+<table>
+  <tr>
+    <td> Term </td>
+    <td> Definition </td>
+  </tr>
+  <tr> 
+    <td> FR </td>
+    <td> Functional Requirement. </td>
+  </tr>
+  <tr>
+    <td> BR </td>
+    <td> Regla de negocio. </td>
+  </tr>
+  <tr>
+    <td> PC </td>
+    <td> Precondiciones. </td>
+  </tr>
+  <tr>
+    <td> NFR </td>
+    <td> Non - Functional Requirement. </td>
+  </tr>
+</table>
 
 ### 11. APPENDICES
-|Name of document |Document path | 
-|-----------------|--------------|         
-|NA |NA |      
+<table>
+  <tr>
+    <td> Name of document </td>
+    <td> Document path </td>
+  </tr>
+  <tr>
+    <td> NA </td>
+    <td> NA </td>
+  </tr>
+</table>
 
