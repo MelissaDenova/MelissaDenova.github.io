@@ -11,23 +11,23 @@
     <td> Business </td>
   </tr>
   <tr>
-    <td> Solicitante </td>
+    <td> Requester </td>
     <td> José Ángel Reyes </td>
   </tr>
     <tr>
-    <td> Área del solicitante </td>
+    <td> Requesting area </td>
     <td> Dirección </td>
   </tr>
     <tr>
-    <td> Nombre del requerimiento </td>
+    <td> Name of the requirement </td>
     <td> Audit Log </td>
   </tr>
     <tr>
-    <td> Fecha de solicitud </td>
-    <td> 07 de mayo, 2024 </td>
+    <td> Date of request </td>
+    <td> May 07, 2024 </td>
   </tr>
   <tr>
-    <td> Receptor </td>
+    <td> Receiver </td>
     <td> Eddy Zavaleta </td>
   </tr>
   </table>
@@ -42,7 +42,10 @@
   </tr>
   <tr>
     <td> FR1 </td>
-    <td> Create a service that registers the actions that each user performs within the Titania application.|Since it is required to have a log of the activities that users perform within Titania, when the system administrator profile enters to query information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, User, Action, Data/info, Applicative. </td>
+    <td> Create a service that registers the actions that each user performs within the Titania application. </td>
+    <td> Since it is required to have a log of the activities that users perform within Titania, when the system administrator profile enters to query 
+         information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, 
+         User, Action, Data/info, Applicative. </td>
     <td> BR1, BR2 </td>
   </tr>
 </table>
