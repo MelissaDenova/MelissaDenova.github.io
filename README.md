@@ -1,6 +1,6 @@
 ## SOFTWARE REQUIREMENTS SPECIFICATIONS (SRS)
 <ul>
-<li><a href="https://github.com/MelissaDenova/Prueba/wiki/REQ%E2%80%902023%E2%80%90Q4%E2%80%9001-Sales-Scalability">Home</a></li>
+<li><a href="https://github.com/MelissaDenova/MelissaDenova.github.io/blob/main/READ2.md">Home</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Services</a></li>
 <li><a href="#">Partners</a></li>
