@@ -10,6 +10,26 @@
     <td> Classification </td>
     <td> Business </td>
   </tr>
+  <tr>
+    <td> Solicitante </td>
+    <td> José Ángel Reyes </td>
+  </tr>
+    <tr>
+    <td> Área del solicitante </td>
+    <td> Dirección </td>
+  </tr>
+    <tr>
+    <td> Nombre del requerimiento </td>
+    <td> Audit Log </td>
+  </tr>
+    <tr>
+    <td> Fecha de solicitud </td>
+    <td> 07 de mayo, 2024 </td>
+  </tr>
+  <tr>
+    <td> Receptor </td>
+    <td> Eddy Zavaleta </td>
+  </tr>
   </table>
   
 ### 2. LIST OF FUNCTIONAL REQUIREMENTS
