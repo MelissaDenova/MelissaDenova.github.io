@@ -1,4 +1,4 @@
-### 1. GENERAL DETAILS OF THE REQUEST
+### 1. SOFTWARE REQUIREMENTS SPECIFICATIONS
 <ul>
 <li><a href="https://github.com/MelissaDenova/MelissaDenova.github.io/blob/main/README.md">Home</a></li>
 <li><a href="#">About</a></li>
