@@ -47,8 +47,9 @@ h3 {
   line-height: 24px;
 }
 
+/*Se cambia color */
 a {
-  color:#4276b6;
+  color:#7cb642;
   font-weight:400;
   text-decoration:none;
 }
@@ -113,11 +114,11 @@ pre {
 
 kbd {
   background-color: #5b8c3a;
-  border: 1px solid #c6cbd1;
-  border-bottom-color: #c6cbd1;
+  border: 1px solid #5b8c3a;
+  border-bottom-color: #5b8c3a;
   border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #c6cbd1;
-  color: #c6cbd1;
+  box-shadow: inset 0 -1px 0 #5b8c3a;
+  color: #5b8c3a;
   display: inline-block;
   font-size: 11px;
   line-height: 10px;
@@ -228,7 +229,7 @@ header {
 
     &:hover {
       background: linear-gradient(rgb(255, 231, 136), rgb(255, 231, 136));
-      background-color: #ffeca0;
+      background-color: #7cb642;
     }
   }
 
