@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+[Link to another page](./README.html).
+
 # SOFTWARE REQUIREMENT SPECIFICATION
 ### REQ-2023-Q4
 <ul>
