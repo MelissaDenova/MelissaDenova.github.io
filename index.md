@@ -1,7 +1,7 @@
 # SOFTWARE REQUIREMENT SPECIFICATION
 ### REQ-2023-Q4
 <ul>
-<li><a href="./README.html">REQ-2023-Q4-01 Sales Scalability </a></li>
+<li><a href="README.md>REQ-2023-Q4-01 Sales Scalability </a></li>
 <li><a href="#">REQ-2023-Q4-02 DR New Variables </a></li>
 <li><a href="#">REQ-2023-Q4-03 Universes </a></li>
 <li><a href="#">REQ-2023-Q4-04 Dashboard live in Titania </a></li>
