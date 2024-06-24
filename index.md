@@ -26,8 +26,8 @@ layout: default
 <li><a href="#">REQ-2024-Q1-03 Markowitz </a></li>
 <li><a href="#">REQ-2024-Q1-04 Fractal 1: Rules </a></li>
 <li><a href="#">REQ-2024-Q1-05 ETF Break Down</a></li>
-<li><a href="(./README.html)".>REQ-2024-Q1-06 Audit Log </a></li>
-[Audit Log](./README.html).
+<li><a href="#".>REQ-2024-Q1-06 Audit Log </a></li>
+[Link to another page](./README.html).
 <li><a href="#">REQ-2024-Q1-07 Review of variables </a></li>
 <li><a href="#">REQ-2024-Q1-08 Exchange rate </a></li>
 <li><a href="#">REQ-2024-Q1-09 Conciliation </a></li>
