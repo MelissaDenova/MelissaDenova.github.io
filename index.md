@@ -6,7 +6,7 @@ layout: default
 # SOFTWARE REQUIREMENT SPECIFICATION
 ### REQ-2023-Q4
 <ul>
-<li><a href="README.md">REQ-2023-Q4-01 Sales Scalability </a></li>
+<li><a href="#">REQ-2023-Q4-01 Sales Scalability </a></li>
 <li><a href="#">REQ-2023-Q4-02 DR New Variables </a></li>
 <li><a href="#">REQ-2023-Q4-03 Universes </a></li>
 <li><a href="#">REQ-2023-Q4-04 Dashboard live in Titania </a></li>
@@ -26,7 +26,7 @@ layout: default
 <li><a href="#">REQ-2024-Q1-03 Markowitz </a></li>
 <li><a href="#">REQ-2024-Q1-04 Fractal 1: Rules </a></li>
 <li><a href="#">REQ-2024-Q1-05 ETF Break Down</a></li>
-<li><a href=(./README.html).>REQ-2024-Q1-06 Audit Log </a></li>
+<li><[Link to another page](./README.html).>REQ-2024-Q1-06 Audit Log </a></li>
 <li><a href="#">REQ-2024-Q1-07 Review of variables </a></li>
 <li><a href="#">REQ-2024-Q1-08 Exchange rate </a></li>
 <li><a href="#">REQ-2024-Q1-09 Conciliation </a></li>
