@@ -2,20 +2,11 @@
 layout: default
 ---
 
-## Welcome to another page
-
 _yay_
 
 [back](./)
 
 ## SOFTWARE REQUIREMENTS SPECIFICATIONS (SRS)
-<ul>
-<li><a href="https://github.com/MelissaDenova/MelissaDenova.github.io/blob/main/READ2.md">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Partners</a></li>
-<li><a href="#">Contacts</a></li>
-</ul>
 
 ### 1. GENERAL DETAILS OF THE REQUEST
 <table>
