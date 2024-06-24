@@ -2,11 +2,7 @@
 layout: default
 ---
 
-_yay_
-
 [back](./)
-
-## SOFTWARE REQUIREMENTS SPECIFICATIONS (SRS)
 
 ### 1. GENERAL DETAILS OF THE REQUEST
 <table>
