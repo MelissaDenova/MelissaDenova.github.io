@@ -76,7 +76,7 @@ layout: default
   </tr>
   <tr>
      <td> BR2 </td>
-     <td> The values resulting from the log must be persisted in a file or table exclusively accessible by the service administrator user. </td>
+     <td> <p> The assignment of weights to the theoretical model for each of the listed tickers must be made according to the value obtained in the strategy used. </p> <p> The sum of the weights must equal 100%.</p> <p> &#160; &#160; &#160; Example </p> <p>&#160; &#160; &#160; For the example, 100 tickers will be considered, so the weight assigned to each ticker will be 1%.</p> <table align="center"> <tr> <td>TICKER DATA</td> <td> MODEL WEIGHT </td></tr> <tr> <td>ACCD US Equity</td> <td>1% </td> </tr> <tr> <td>ACMR US Equity </td> <td>1% </td> </tr> <tr> <td>ADCT US Equity </td> <td>1% </td> </tr> </table> </td>
   </tr>
   <tr>
      <td> BR3 </td> 
