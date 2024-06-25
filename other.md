@@ -64,7 +64,6 @@ layout: default
   </tr>
 </table>
 
-
 ### 4. BUSINESS RULES
 <table>
   <tr>
@@ -73,19 +72,25 @@ layout: default
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> <p> Having as input a list of tickers, and the average volume at "n" days of those tickers, the calculation of the maximum tradable amount shall be performed, considering the rule of trading only the established percentage of the total value. (The percentage shall be considered as a variable input). </p> <p> <Example> </p> </td>
+    <td> <p> For auditing purposes, the following data must be saved for each action performed by a given user within the applications used in Tequila 
+     Capital:</p> <p> &#160; &#160; &#160; * ID event: Event number indicator. </p> <p> &#160; &#160; &#160; * Date time: Date - time at which the event 
+     occurs. </p> <p> &#160; &#160; &#160; * IP: IP of the device the user is logging in from.</p> <p> &#160; &#160; &#160; * User: User logging in. </p> 
+     <p> &#160; &#160; &#160; * Action: It states the activity that the user performs. </p> <p> &#160; &#160; &#160; * Data/ info: Describes the changes 
+     that the user makes within the application, showing the previous value and the new value. </p> <p> &#160; &#160; &#160; * Applicative: Within Tequila 
+     Capital, the following applications are available: Titania, Data, Builder, Account Manager, Excel AddIn y APIs, it shall be recorded in which of them 
+     the event carried out by a user generates impact. </p> </td>
   </tr>
   <tr>
      <td> BR2 </td>
-     <td> x </td>
+     <td> The values resulting from the log must be persisted in a file or table exclusively accessible by the service administrator user. </td>
   </tr>
   <tr>
      <td> BR3 </td> 
-     <td> x </td>
+     <td> The records shall be unalterable. </td>
   </tr>
   <tr>
     <td> BR4 </td>
-    <td> x. </td>
+    <td> A log shall be kept of the actions that the system automatically performs. </td>
   </tr>
 </table>
 
@@ -98,10 +103,20 @@ layout: default
   </tr>
   <tr>
     <td> NFR1 </td>
-    <td> The optimiser that will be used to find the optimal weight will be GRG. </td>
-    <td> To be defined </td>
+    <td> The system shall be protected against unauthorised access. </td>
+    <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
   </tr>
-  </table>
+  <tr>
+    <td> NFR2 </td>
+    <td> The service shall support n number of registrations without compromising performance. </td>
+    <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
+  </tr>
+  <tr>
+    <td> NFR3 </td>
+    <td> The records generated should be durable, they can be archived but not deleted. </td>
+    <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
+  </tr>
+</table>
 
 ### 6. DEVELOPMENT OFFICERS
 <table>
@@ -114,8 +129,8 @@ layout: default
     <td> Manager </td>
   </tr>
   <tr>
-    <td> Sergio Méndez </td>
-    <td> Developer </td>
+    <td> Julio Pérez </td>
+    <td> Backend Team leader </td>
   </tr>
   <tr>
     <td> Luis Fábregas </td>
