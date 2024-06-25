@@ -211,7 +211,7 @@ header {
   padding-right: 10px;
 
   .button {
-    border: 1px solid #93AA25;
+    border: 2px solid #93AA25;
     background: linear-gradient(rgb(224, 236, 166), rgb(224, 236, 166));
     border-radius: 2px;
     box-shadow: inset 0px 1px 0px rgba(224, 236, 166,.4), 0px 1px 1px rgba(0,0,0,.1);
@@ -227,7 +227,7 @@ header {
     text-align:center;
 
     &:hover {
-      background: linear-gradient(rgb(224, 236, 166), rgb(224, 236, 166));
+      background: linear-gradient(rgb(147, 170, 37), rgb(147, 170, 37));
       background-color: #7cb642;
     }
   }
