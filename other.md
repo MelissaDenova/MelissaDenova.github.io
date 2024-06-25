@@ -72,7 +72,7 @@ layout: default
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> <p> Having as input a list of tickers, and the average volume at "n" days of those tickers, the calculation of the maximum tradable amount shall be performed, considering the rule of trading only the established percentage of the total value. (The percentage shall be considered as a variable input).</p> <p> &#160; &#160; &#160; Example. </p> <p> &#160; &#160; &#160; For this example, 30 days and a maximum trading percentage of 8% are considered </p> <table> <tr> <td> TICKER DATA </td> <td> VOLUMEN AVG 30D </td> <td> 8% DEL AVG VOLUME </td> </tr> <tr> <td> ACCD US Equity </td> <td> $5,074,957.29 </td> <td>$405,996.58 </td> </tr> </table> 
+    <td> <p> Having as input a list of tickers, and the average volume at "n" days of those tickers, the calculation of the maximum tradable amount shall be performed, considering the rule of trading only the established percentage of the total value. (The percentage shall be considered as a variable input).</p> <p> &#160; &#160; &#160; Example. </p> <p> &#160; &#160; &#160; For this example, 30 days and a maximum trading percentage of 8% are considered </p> <table> <tr> <td> TICKER DATA </td> <td> VOLUMEN AVG 30D </td> <td> 8% DEL AVG VOLUME </td> </tr> <tr> <td> ACCD US Equity </td> <td> $5,074,957.29 </td> <td>$405,996.58 </td> </tr> </table> </td>
   </tr>
   <tr>
      <td> BR2 </td>
