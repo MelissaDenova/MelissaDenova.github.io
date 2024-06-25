@@ -72,13 +72,7 @@ layout: default
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> <p> For auditing purposes, the following data must be saved for each action performed by a given user within the applications used in Tequila 
-     Capital:</p> <p> &#160; &#160; &#160; * ID event: Event number indicator. </p> <p> &#160; &#160; &#160; * Date time: Date - time at which the event 
-     occurs. </p> <p> &#160; &#160; &#160; * IP: IP of the device the user is logging in from.</p> <p> &#160; &#160; &#160; * User: User logging in. </p> 
-     <p> &#160; &#160; &#160; * Action: It states the activity that the user performs. </p> <p> &#160; &#160; &#160; * Data/ info: Describes the changes 
-     that the user makes within the application, showing the previous value and the new value. </p> <p> &#160; &#160; &#160; * Applicative: Within Tequila 
-     Capital, the following applications are available: Titania, Data, Builder, Account Manager, Excel AddIn y APIs, it shall be recorded in which of them 
-     the event carried out by a user generates impact. </p> </td>
+    <td> <p> Having as input a list of tickers, and the average volume at "n" days of those tickers, the calculation of the maximum tradable amount shall be performed, considering the rule of trading only the established percentage of the total value. (The percentage shall be considered as a variable input).</p> <p> &#160; &#160; &#160; Example. </p> <p> &#160; &#160; &#160; For this example, 30 days and a maximum trading percentage of 8% are considered </p> </td>
   </tr>
   <tr>
      <td> BR2 </td>
