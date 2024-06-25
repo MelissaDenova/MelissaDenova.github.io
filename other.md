@@ -73,7 +73,7 @@ layout: default
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> <p> Having as input a list of tickers, and the average volume at "n" days of those tickers, the calculation of the maximum tradable amount shall be performed, considering the rule of trading only the established percentage of the total value. (The percentage shall be considered as a variable input). </p> <p> <Example> </td>
+    <td> <p> Having as input a list of tickers, and the average volume at "n" days of those tickers, the calculation of the maximum tradable amount shall be performed, considering the rule of trading only the established percentage of the total value. (The percentage shall be considered as a variable input). </p> <p> <Example> </p> </td>
   </tr>
   <tr>
      <td> BR2 </td>
