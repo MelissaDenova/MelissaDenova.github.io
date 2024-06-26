@@ -2,6 +2,7 @@
 layout: default
 ---
 [Link to another page](./README.html).
+[Link to another page](./other.html).
 
 ### REQ-2023-Q4
 <ul>
