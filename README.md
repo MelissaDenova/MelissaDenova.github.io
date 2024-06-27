@@ -18,15 +18,15 @@ layout: default
     <td> Requester </td>
     <td> Fidel Selva </td>
   </tr>
-    <tr>
+  <tr>
     <td> Requester area </td>
     <td> Research </td>
   </tr>
-    <tr>
+  <tr>
     <td> Name of the requirement </td>
     <td> Smart Markowitz </td>
   </tr>
-    <tr>
+  <tr>
     <td> Date of request </td>
     <td> June 07, 2024 </td>
   </tr>
