@@ -39,7 +39,7 @@ layout: default
 ### 2. LIST OF FUNCTIONAL REQUIREMENTS
 <table>
   <tr>
-    <td> Request ID </td>
+    <td> ID Request </td>
     <td> Request </td>
     <td> Acceptance criteria </td>
     <td> Associated BR </td>
@@ -178,8 +178,19 @@ layout: default
    * <p align="justify"> Availability of stakeholders in the user area for the definition, review, clarification and validation of product requirements. </p> 
    * <p align="justify"> Validation and sign-off of deliverables according to the stages of the product. </p>
 
+## 7.1 BACKTESTING ASSUMPTIONS 
+* <p> Stocks and strategies are chosen at each review point during a predefined period of time. </p>
+* <p> The benchmark will be the strategy formed by an equal weighting of all strategies involved. </p>
+
+
 ### 8. RESTRICTIONS TO BE CONSIDERED
 <p align="justify"> The needs and requirement requests for the development area are defined in the ‘Software Requirements Specification (SRS)’ document that corresponds to the scope requested by the business areas, in case of an adjustment, a change control and redefinition of the work schedule will be carried out. </p>
+
+## 8.1 BACKTESTING RESTRICTIONS
+* <p> Benchmark: Blend 3 weighted at arm´s lenght. </p>
+* <p> No fees </p>
+* <p> No slippage </p>
+* <p> Monthly rebalancing is considered </p>
 
 ### 9. EXCLUSIONS
 <p align="justify"> The exclusions considered in the requirement are presented below, in order not to generate false expectations in the product that will be delivered to the business area. </p>
