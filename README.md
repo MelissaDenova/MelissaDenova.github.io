@@ -80,7 +80,6 @@ layout: default
   </tr>
 </table>
 
-
 ### 4. BUSINESS RULES
 <table>
   <tr>
