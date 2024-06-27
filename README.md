@@ -144,6 +144,11 @@ layout: default
 <table>
   <tr>
     <td> NFR ID </td>
+    <td> Non - functional requirements </td>
+    <td> Module / System </td>
+  </tr>
+  <tr>
+    <td> NFR1 </td>
     <td> NA </td>
     <td> NA </td>
   </tr>
