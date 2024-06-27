@@ -8,7 +8,7 @@ layout: default
 <table>
   <tr>
     <td> Need Id </td>
-    <td> REQ-2024Q1-06 Audit Log </td>
+    <td> REQ-2024Q1-06 </td>
   </tr>
   <tr>
     <td> Classification </td>
@@ -19,8 +19,8 @@ layout: default
     <td> José Ángel Reyes </td>
   </tr>
     <tr>
-    <td> Requesting area </td>
-    <td> Dirección </td>
+    <td> Requester area </td>
+    <td> Management </td>
   </tr>
     <tr>
     <td> Name of the requirement </td>
@@ -31,7 +31,7 @@ layout: default
     <td> May 07, 2024 </td>
   </tr>
   <tr>
-    <td> Receiver </td>
+    <td> Receptor </td>
     <td> Eddy Zavaleta </td>
   </tr>
   </table>
@@ -46,11 +46,11 @@ layout: default
   </tr>
   <tr>
     <td> FR1 </td>
-    <td> Create a service that registers the actions that each user performs within the Titania application. </td>
-    <td> Since it is required to have a log of the activities that users perform within Titania, when the system administrator profile enters to query 
-         information about the logs, then the system shall allow the system administrator profile to view the following data:  ID event, Date time, IP, 
-         User, Action, Data/info, Applicative. </td>
-    <td> BR1, BR2 </td>
+    <td> It is required to create a record of the actions performed within the applications used in Tequila Capital. Both actions performed by a user and those that the system executes automatically should be considered. </td>
+    <td> Since it is required to have a log of the activities that are performed within the Capital tequila applications (both user and automatic system), when the administrator profile enters to review the records, then the system must allow the administrator profile to view the following data: 
+Event ID, Date time, IP, User, Action, Data/info, Application.
+ </td>
+    <td> BR1, BR2, BR3, BR4, BR5 </td>
   </tr>
 </table>
 
@@ -61,8 +61,8 @@ layout: default
     <td> Preconditions </td>
   </tr>
   <tr> 
-    <td> NA </td>
-    <td> NA </td>
+    <td> PC1 </td>
+    <td> A matrix of roles and permissions that each profile of the Tequila Capital team will have for each existing application will have to be defined. </td>
   </tr>
 </table>
 
@@ -75,25 +75,26 @@ layout: default
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> <p> For auditing purposes, the following data must be saved for each action performed by a given user within the applications used in Tequila 
-     Capital:</p> <p> &#160; &#160; &#160; * ID event: Event number indicator. </p> <p> &#160; &#160; &#160; * Date time: Date - time at which the event 
-     occurs. </p> <p> &#160; &#160; &#160; * IP: IP of the device the user is logging in from.</p> <p> &#160; &#160; &#160; * User: User logging in. </p> 
-     <p> &#160; &#160; &#160; * Action: It states the activity that the user performs. </p> <p> &#160; &#160; &#160; * Data/ info: Describes the changes 
-     that the user makes within the application, showing the previous value and the new value. </p> <p> &#160; &#160; &#160; * Applicative: Within Tequila 
-     Capital, the following applications are available: Titania, Data, Builder, Account Manager, Excel AddIn y APIs, it shall be recorded in which of them 
-     the event carried out by a user generates impact. </p> </td>
+    <td> <p> For auditing purposes, the following data must be stored for each action performed within the applications used in Tequila Capital: </p> <p> &#160; &#160; &#160; * ID event: Event number indicator. </p> <p> &#160; &#160; &#160; * Date time: Date - time at which the event 
+     occurs. </p> <p> &#160; &#160; &#160; * IP: IP of the device from which the action is performed. </p> <p> &#160; &#160; &#160; * User: User performing the action. </p> 
+     <p> &#160; &#160; &#160; * Action: State the activity carried out. </p> <p> &#160; &#160; &#160; * Data/ info: Describes the changes 
+     that are made within the application, showing the old value and the new value. </p> <p> &#160; &#160; &#160; * Applicative: Displays the name of the application where the action is being executed (RN2). </p> </td>
+  </tr>
+    <tr>
+     <td> BR2 </td>
+     <td> Within Tequila Capital, we have the following applicatives: Titania, Data, Builder, Account Manager, Excel AddIn and APIs. </td>
   </tr>
   <tr>
-     <td> BR2 </td>
+     <td> BR3 </td>
      <td> The values resulting from the log must be persisted in a file or table exclusively accessible by the service administrator user. </td>
   </tr>
   <tr>
-     <td> BR3 </td> 
-     <td> The records shall be unalterable. </td>
+     <td> BR4 </td> 
+     <td> <p> A log level shall be considered for the actions that are recorded, i.e. it shall be shown to which of the following classifications each action belongs: </p> <p>  &#160; &#160; &#160; *Informative </p> <p>  &#160; &#160; &#160; *Critical</p></td>
   </tr>
   <tr>
-    <td> BR4 </td>
-    <td> A log shall be kept of the actions that the system automatically performs. </td>
+    <td> BR5 </td>
+    <td> The records shall be unalterable.  </td>
   </tr>
 </table>
 
@@ -111,12 +112,17 @@ layout: default
   </tr>
   <tr>
     <td> NFR2 </td>
-    <td> The service shall support n number of registrations without compromising performance. </td>
+    <td> The system shall support n number of record without compromising performance. </td>
     <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
   </tr>
   <tr>
     <td> NFR3 </td>
-    <td> The records generated should be durable, they can be archived but not deleted. </td>
+    <td> The records generated should be durable and should be archived after 3 years. </td>
+    <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
+  </tr>
+   <tr>
+    <td> NFR4 </td>
+    <td> Records generated by the system may not be deleted. </td>
     <td> Titania, Data, Builder, Account manager, Excel AddIn, APIs. </td>
   </tr>
 </table>
@@ -190,6 +196,18 @@ layout: default
   <tr>
     <td> NA </td>
     <td> NA </td>
+  </tr>
+</table>
+
+### 12. AUTHORISATIONS 
+<table>
+  <tr>
+    <td> Elaborated </td>
+    <td> Authorised </td>
+  </tr>
+  <tr>
+    <td> <p> Melissa González </p> <p> Area: Development </p> <p> Role: Analyst </p></td>
+    <td> <p> José Ángel Reyes </p> <p> Area: Management </p> <p> Role: Director </p></td>
   </tr>
 </table>
 
