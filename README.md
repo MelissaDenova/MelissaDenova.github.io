@@ -93,7 +93,7 @@ layout: default
     <td> Business rule </td>
   </tr>
   <tr> 
-    <td> Market Cap and Equal Weight </td>
+    <td colspan=#2"> Market Cap and Equal Weight </td>
   </tr>
   <tr>
     <td> BR1 </td>
