@@ -113,7 +113,7 @@ layout: default
   </tr>
   <tr>
     <td> BR5 </td>
-    <td> x  </td>
+    <td> <p> Statistics should be calculated for different time periods to find out how much each of the companies paid, multiplied by how much they weigh in the sector. </p> <p> Note: Each deadline will be a variable input, associated to the RN2 of this document. </p> <p> Example: </p> <table> <tr> <td> Company </td> <td> TRR 30D </td> <td>Sector Weight Mkt Cap </td> <td> Sector Weight EW </td></tr> <tr> <td>MSFT US Equity </td> <td> -1.27%</td> <td> 23% </td> <td> 1.54% </td></tr> <tr> <td> AAPL US Equity </td> <td> 6.31% </td> <td> 21% </td> <td> 1.54% </td></tr> <tr> <td>NVDA US Equity </td> <td> 3.59% </td> <td> 17% </td> <td> 1.54% </td></tr> </table> <p>The TRR at the required term is multiplied by the weight obtained for each company in the sector to which it belongs. </p> <p>For Market Cap:</p> <p>MSFT US Equity = -1.27% * 23% = -0.29% </p> <p>AAPL US Equity = 6.31% * 21% = 1.35%</p> <p> NVDA US Equity = 3.59% * 17% = 0.60%</p> <p>For Equal Weight:</p> <p> MSFT US Equity = -1.27% * 1.54% = -0.02% </p> <p> AAPL US Equity = 6.31% * 1.54% = 0.10% </p> <p> NVDA US Equity = 3.59% * 1.54% = 0.06% </p> <table> <tr> <td> </td> <td> Information Technology </td> <td> Information technology </td></tr> <tr> <td> </td> <td> Market Cap </td> <td> Equal Weight </td></tr> <tr> <td> </td> <td> Contr to Sector </td> <td> Contor to Sector</td></tr> <tr> <td>MSFT US Equity</td> <td> -0.29% </td> <td> -0.02% </td> </tr> <tr> <td> AAPL US Equity </td> <td> 1.35% </td> <td> 0.10% </td></tr> <tr> <td> NVDA US Equity</td> <td>0.60%</td> <td>0.06%</td></tr> </table> </td>
   </tr>
   <tr>
     <td> BR6 </td>
