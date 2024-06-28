@@ -136,11 +136,11 @@ layout: default
   </tr>
   <tr>
     <td> BR10 </td>
-    <td> x </td>
+    <td> <p>The average historical percentile value shall be calculated for each ticker.</p> <p> Example: </p> <p> For the calculation of the average, it is considered from 01/07/2013 to the present. </p> </td>
   </tr>
   <tr> 
     <td> BR11 </td>
-    <td> x </td>
+    <td> <p> The difference between the value obtained in the percentile minus the value obtained in the average shall be calculated. </p> <p> Example: </p> <table> <tr> <td> Ticker </td> <td> Historical Percentil</td> <td> Average </td> <td> Deviation </td></tr> <tr> <td>Healthcare EW </td> <td> 14.80% </td> <td> 40.13% </td> <td> -25.33% </td></tr> <tr> <td> Financials EW </td> <td> 21.90% </td> <td> 42.72% </td> <td> -20.82% </td></tr> <tr> <td> Cons Disc EW </td> <td> 0.40% </td> <td> 39.25% </td> <td> -38.85% </td></tr> </table> <p>Healthcare EW = 14.80% – 40.13% = -25.33%</p> <p>Financials EW = 21.90% - 42.72% = -20.82% </p> <p>Cons Disc EW = 0.40% - 39.25% = -38.85%</p> </td>
   </tr>
   <tr>
     <td> BR12 </td>
@@ -148,6 +148,42 @@ layout: default
   </tr>
   <tr>
     <td> BR13 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR14 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR15 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR16 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR17 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR18 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR19 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR20 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR21 </td>
+    <td> x </td>
+  </tr>
+   <tr>
+    <td> BR22 </td>
     <td> x </td>
   </tr>
 </table>
