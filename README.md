@@ -97,15 +97,15 @@ layout: default
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> x </td>
+    <td> With an eligible universe of tickers as input, the classification of tickers by sector and industry should be performed. </td>
   </tr>
   <tr>
      <td> BR2 </td>
-     <td> x </td>
+     <td> The n-day returns should be calculated (the number of days will be a variable input). </td>
   </tr>
   <tr>
      <td> BR3 </td>
-     <td> x </td>
+     <td> <p> A calculation should be made of how much the companies weigh in their sector by Market Cap and Equal Weight. </p> <p> Example:</p> <p> For Market Cap </p> <p>The sum of the Market Cap value of all the companies belonging to the same sector is added up, and once this sum is obtained, the Market Cap value of each company is divided by the sum of the sum. </p> <table> <tr> <td> ID </td> <td> Market Cap </td> <td> Sector </td> <td> Sector Weight Mkt Cap </td> <td> Sector Equal Weight </td></tr> <tr> <td>MSFT US Equity</td> <td>3,096,001</td> <td>Information Technology</td> <td>23% </td> <td> 1.54% </td></tr> <tr> <td>AAPL US Equity</td> <td> 2,874,067</td> <td> Information Technology </td> <td> 21% </td> <td> 1.54% </td></tr> <tr> <td>NVDA US Equity</td> <td> 2,247,206 </td> <td> Information Technology </td> <td> 17% </td> <td>1.54% </td></tr> <tr> <td> ... </td> <td> N </td> <td> Information Technology </td> <td> ... </td> <td> ... </td></tr> </table> <p> Total Market Cap = $13,477,568 </p> <p>MSFT US Equity = 3,096,001 / 13, 477,568 = 0.23 </p> <p> AAPL US Equity = 2,874,067 / 13, 477,568 = 0.21 </p> <p>NVDA US Equity = 2,247,206 / 13, 477,568 = 0.17</p> <p> For Equal weight: </p> <p> Weights are divided proportionally among all tickers in the sector. </p></td> 
   </tr>
   <tr>
      <td> BR4 </td> 
