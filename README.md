@@ -92,6 +92,9 @@ layout: default
     <td> ID BR </td>
     <td> Business rule </td>
   </tr>
+  <tr> 
+    <td> Market Cap and Equal Weight </td>
+  </tr>
   <tr>
     <td> BR1 </td>
     <td> x </td>
