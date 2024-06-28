@@ -24,7 +24,7 @@ layout: default
   </tr>
     <tr>
     <td> Name of the requirement </td>
-    <td> Smart Markowitz </td>
+    <td> x </td>
   </tr>
     <tr>
     <td> Date of request </td>
@@ -32,7 +32,7 @@ layout: default
   </tr>
   <tr>
     <td> Receptor </td>
-    <td> Eddy Zavaleta </td>
+    <td> x </td>
   </tr>
   </table>
   
@@ -46,8 +46,8 @@ layout: default
   </tr>
   <tr>
     <td> FR1 </td>
-    <td> A method needs to be implemented to estimate expected values for future asset or strategy returns based on current Momentum and Volatility scenarios. </td>
-    <td> Since it is required to implement a method for estimating expected values for future returns, when the user enters the parameters to be used, then the system should display the daily predictions per strategy and the realized performance of the strategy that shows statistically significant predictive power for monthly returns. </td>
+    <td> x </td>
+    <td> x </td>
     <td> BR1, BR2, BR3, BR4, BR5, BR6, BR7, BR8, BR9,BR10, BR11, BR12, BR13 </td>
   </tr>
 </table>
@@ -60,15 +60,15 @@ layout: default
   </tr>
   <tr> 
     <td> PC1 </td>
-    <td> The universe to be used will be a variable input. </td>
+    <td> x </td>
   </tr>
   <tr> 
     <td> PC2 </td>
-    <td> The vector of weights may not contain negative values to avoid short sales </td>
+    <td> x </td>
   </tr>
   <tr>
     <td> PC3 </td>
-    <td> <p> The variables analyzed will be: </p> <p> &#160; &#160; &#160; *Daily returns time series. </p> <p> &#160; &#160; &#160; *Closing price of each stock </p> <p> &#160; &#160; &#160; *MA (21) </p> <p> &#160; &#160; &#160; *MA (63) </p> <p> &#160; &#160; &#160; *MA (252) </p> <p> &#160; &#160; &#160; *Std (21) </p> <p> &#160; &#160; &#160; *Std (63) </p> <p> &#160; &#160; &#160; *Std (252) </p> <p> &#160; &#160; &#160; *Expected holding period. </p> </td>
+    <td> x </td>
   </tr>
 </table>
 
@@ -80,56 +80,55 @@ layout: default
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> Each strategy TRR should be transformed into log returns by applying log (TRR / lag (TRR)). </td>
+    <td> x </td>
   </tr>
   <tr>
      <td> BR2 </td>
-     <td>The sample mean and variance should be calculated at 21, 63 and 152 days.</td>
+     <td> x </td>
   </tr>
   <tr>
      <td> BR3 </td>
-     <td> The square root of the variance shall be calculated. </td>
+     <td> x </td>
   </tr>
   <tr>
      <td> BR4 </td> 
-     <td> <p> For each strategy a sklearn SNN object with dense layer sizes 36 and 2, activation of ReLU should be made, ie, sklearn.neural_network. MLPRegressor ((36,2)). </p> <p> Note: In addition to ReLu, activation functions should be considered: </p> <p>  &#160; &#160; &#160; *Hyperbolic tangent </p> <p>  &#160; &#160; &#160; *Logistic </p></td>
+     <td> x </td>
   </tr>
   <tr>
     <td> BR5 </td>
-    <td> For each strategy the SNN should be adjusted with one year of initialization data using X = Shift21 (MA21, MA63, MA252, Std21, Std63, Std252) and y = MA21.  </td>
+    <td> x  </td>
   </tr>
   <tr>
     <td> BR6 </td>
-    <td> For each trading day, base data shall be received and transformed up to today's date. </td>
+    <td> x </td>
   </tr>
   <tr>
     <td> BR7 </td>
-    <td> For each trading day, a partial adjustment shall be made to the TRR object for each strategy using the new data, i.e. SNN.partial_fit(X,y).</td>
+    <td> x </td>
   </tr>
   <tr>
     <td> BR8 </td>
-    <td> For each trading day the TRR object shall be evaluated for the current day's data with SNN.predict(X). </td>
+    <td> x </td>
   </tr>
   <tr>
     <td> BR9 </td>
-    <td> For each trading day, a vector of expected logarithmic returns should be filled in. </td>
+    <td> x </td>
   </tr>
   <tr>
     <td> BR10 </td>
-    <td> <p> Markowitz optimization should be applied for the allocation of allocations, using the newly calculated expected returns.</p> <p> Note: The Markowitz model will be applied on strategies and ETFs and the following restriction must be considered: </p> <p> Strategies = Maximum of 20% allocation. </p> <p> ETFs = 100% allocation </p> </td>
+    <td> x </td>
   </tr>
   <tr> 
     <td> BR11 </td>
-    <td> <p> Node parameters shall be equipped with lbfgs in case the trigger is ReLu.
- </p> <p> Note: Any optimizer can be considered when using the hyperbolic and logistic tangent activator. </p> </td>
+    <td> x </td>
   </tr>
   <tr>
     <td> BR12 </td>
-    <td> <p> Net weights shall be equipped with lbfgs in case the trigger is ReLu. </p> <p> Note: Any optimizer can be considered when using the hyperbolic and logistic tangent activator. </p></td>
+    <td> x </td>
   </tr>
   <tr>
     <td> BR13 </td>
-    <td> The network architecture shall have a 1 e-4 L2 regularization. </td>
+    <td> x </td>
   </tr>
 </table>
 
@@ -176,17 +175,17 @@ layout: default
    * <p align="justify"> Validation and sign-off of deliverables according to the stages of the product. </p>
 
 ### 7.2 BACKTESTING ASSUMPTIONS
-* <p> Stocks and strategies are chosen at each review point during a predefined period of time. </p>
-* <p> The benchmark will be the strategy formed by an equal weighting of all strategies involved. </p>
+* <p> x </p>
+* <p> x </p>
 
 ### 8. RESTRICTIONS TO BE CONSIDERED
 <p align="justify"> The needs and requirement requests for the development area are defined in the ‘Software Requirements Specification (SRS)’ document that corresponds to the scope requested by the business areas, in case of an adjustment, a change control and redefinition of the work schedule will be carried out. </p>
 
 ### 8.1 BACKTESTING RESTRICTIONS
-* <p> Benchmark: Blend 3 weighted at arm's length. </p>
-* <p> No fees </p>
-* <p> No slippage </p>
-* <p> Monthly rebalancing is considered </p>
+* <p> x </p>
+* <p> x </p>
+* <p> x </p>
+* <p> x </p>
 
 ### 9. EXCLUSIONS
 <p align="justify"> The exclusions considered in the requirement are presented below, in order not to generate false expectations in the product that will be delivered to the business area. </p>
