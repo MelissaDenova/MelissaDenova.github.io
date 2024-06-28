@@ -124,6 +124,7 @@ layout: default
  </p> <p> Note: Any optimizer can be considered when using the hyperbolic and logistic tangent activator. </p> </td>
   </tr>
   <tr>
+    <td> BR12 </td>
     <td> <p> Net weights shall be equipped with lbfgs in case the trigger is ReLu. </p> <p> Note: Any optimizer can be considered when using the hyperbolic and logistic tangent activator. </p></td>
   </tr>
   <tr>
