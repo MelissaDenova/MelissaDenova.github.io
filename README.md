@@ -144,47 +144,54 @@ layout: default
   </tr>
   <tr>
     <td> BR12 </td>
-    <td> x </td>
+    <td> <p> The calculation of the absolute value of Momentum shall be performed.  </p> <p> Example: </p> <p>Considering the prices:</p> <p>Divide the current price by the price 126 days ago.</p> <p>Divide the current price by the price 63 days ago. </p> <p> The average value of the results obtained in step 1 and 2 is taken. </p></td>
   </tr>
   <tr>
     <td> BR13 </td>
-    <td> x </td>
+    <td> A graph should be displayed showing the comparison of the value obtained in the Momentum percentile vs. absolute Momentum. </td>
+  </tr>
+   <tr> 
+    <td colspan="2"> Strategy statistics </td>
   </tr>
    <tr>
     <td> BR14 </td>
-    <td> x </td>
+    <td> <p> Having as input a list of strategies and a date for the basis of calculation, the historical percentile should be calculated as of the date set. </p> <p>(See RN9 for details of the percentile calculation).</p></td>
   </tr>
    <tr>
     <td> BR15 </td>
-    <td> x </td>
+    <td> Once the historical percentile calculation for each strategy at different dates is available, the average value should be calculated from this data. </td>
   </tr>
    <tr>
     <td> BR16 </td>
-    <td> x </td>
+    <td> <p>The difference between the value obtained in the percentile minus the value obtained in the average shall be calculated. </p> <p> (See RN11 for details of the calculation) </p> </td>
   </tr>
    <tr>
     <td> BR17 </td>
-    <td> x </td>
+    <td> <p>The YTD value should be calculated for each of the chosen factors.</p> <p> Example: </p> <p>We have a list of yields for each factor on a given day. 
+Having this value</p> <p> 1.The product of 1 plus these yields is made to "n" days. (The days will depend on how much time has elapsed in the current year). </p> <p> 2. Finally, subtract one from the result of the previous step. </p> <p>The formula would be expressed as follows: </p> <p> PRODUCT (1 + (Values to be considered)) -1 </p></td>
   </tr>
    <tr>
     <td> BR18 </td>
-    <td> x </td>
+    <td> <p> The Absolute value of Momentum shall be calculated. </p> <p> (See RN12 for details of the calculation)</p></td>
   </tr>
    <tr>
     <td> BR19 </td>
-    <td> x </td>
+    <td> A graph should be displayed showing the comparison of the value obtained in the relative Momentum vs. absolute Momentum. </td>
+  </tr>
+  <tr> 
+    <td colspan="2"> Industry Statistician </td>
   </tr>
    <tr>
     <td> BR20 </td>
-    <td> x </td>
+    <td> <p> Calculation of returns at different time periods should be carried out and presented as a summary in a table. </p> <p> Example: </p> <table> <tr> <td> Number</td> <td> Industry </td> <td> TRR 30 Days </td> <td> TRR 60 Days </td> <td> TRR 90 Days </td></tr> <tr> <td> 1 </td> <td> Software </td> <td> 0.98% </td> <td> 0.14% </td> <td> -3.61% </td></tr> <tr> <td> 1</td> <td>Technology Hardware, Storage & </td> <td> 4.15%</td> <td> 5.01% </td> <td> 12.62% </td></tr> <tr> <td> 1</td> <td>Semiconductors & Semiconductor </td> <td> 3.80% </td> <td> 5.41% </td> <td> 7.68% </td></tr> <tr> <td> Communications Equipment </td> <td> 1.41% </td> <td> 1.06% </td> <td> 3.29% </td></tr> <tr> <td>IT Services </td> <td> -9.22% </td> <td> -15.42% </td> <td> -14.84% </td></tr> </table> </td>
   </tr>
    <tr>
     <td> BR21 </td>
-    <td> x </td>
+    <td>Once the value of the returns at different time periods is available, the average of the data obtained should be calculated. </td>
   </tr>
    <tr>
     <td> BR22 </td>
-    <td> x </td>
+    <td> <p> Each of the sectors should be visualized in a graph, with the return for the established period.</p> <p> Example of a graph: </p> </td>
   </tr>
 </table>
 
@@ -197,8 +204,13 @@ layout: default
   </tr>
   <tr>
     <td> NFR1 </td>
-    <td> NA </td>
-    <td> NA </td>
+    <td> Dashboards are required to be developed in Power Bi. </td>
+    <td> Titania </td>
+  </tr>
+   <tr>
+    <td> NFR2 </td>
+    <td> The data generated shall remain stored for future reference. </td>
+    <td> To be defined </td>
   </tr>
 </table>
 
@@ -213,8 +225,8 @@ layout: default
     <td> Manager </td>
   </tr>
   <tr>
-    <td> Sergio Méndez </td>
-    <td> Developer </td>
+    <td> Augusto González </td>
+    <td> Front end team leader </td>
   </tr>
   <tr>
     <td> Luis Fábregas </td>
@@ -230,18 +242,8 @@ layout: default
    * <p align="justify"> Availability of stakeholders in the user area for the definition, review, clarification and validation of product requirements. </p> 
    * <p align="justify"> Validation and sign-off of deliverables according to the stages of the product. </p>
 
-### 7.2 BACKTESTING ASSUMPTIONS
-* <p> x </p>
-* <p> x </p>
-
 ### 8. RESTRICTIONS TO BE CONSIDERED
 <p align="justify"> The needs and requirement requests for the development area are defined in the ‘Software Requirements Specification (SRS)’ document that corresponds to the scope requested by the business areas, in case of an adjustment, a change control and redefinition of the work schedule will be carried out. </p>
-
-### 8.1 BACKTESTING RESTRICTIONS
-* <p> x </p>
-* <p> x </p>
-* <p> x </p>
-* <p> x </p>
 
 ### 9. EXCLUSIONS
 <p align="justify"> The exclusions considered in the requirement are presented below, in order not to generate false expectations in the product that will be delivered to the business area. </p>
@@ -292,6 +294,6 @@ layout: default
   </tr>
   <tr>
     <td> <p> Melissa González </p> <p> Area: Development </p> <p> Role: Analyst </p></td>
-    <td> <p> Fidel Selva </p> <p> Area: Research </p> <p> Role: Quant </p></td>
+    <td> <p> Luis de Villa </p> <p> Area: Business </p> <p> Role: Portfolio Manager </p></td>
   </tr>
 </table>
