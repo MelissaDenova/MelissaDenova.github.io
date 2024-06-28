@@ -109,7 +109,7 @@ layout: default
   </tr>
   <tr>
      <td> BR4 </td> 
-     <td> x </td>
+     <td> <p>The calculation of how much the companies weigh in their industry by Market Cap and Equal Weight should be done.</p> <p> Example </p> <p>For Mkt Cap:</p> <p> The sum of the Market Cap value of all the companies belonging to the same industry is added up. Once this sum is obtained, the Market Cap value of each company is divided by the sum value.</p> <table> <tr> <td> ID </td> <td> Market Cap </td> <td> Industry </td> <td>Industry Weight Mkt Cap</td> <td> Industry weight EW </td></tr> <tr> <td> MSFT US Equity </td> <td>3,096,001</td> <td> Software </td> <td> 65% </td> <td> 5.88% </td></tr> <tr> <td>CRM US Equity</td> <td> 268,496 </td> <td> Software </td> <td> 6%</td> <td> 5.88% </td></tr> <tr> <td> ADBE US Equity </td> <td> 213,226 </td> <td> Software </td><td> 4% </td> <td> 5.88% </td></tr> <tr> <td> ... </td> <td> N </td> <td> Software </td> <td> ... </td> <td> ... </td></tr></table> <p> Total Marker Cap = $4,763,318</p> <p>MSFT US Equity = 3,096,001 / 4,763,318 = 0.65 </p> <p> AAPL US Equity = 268,496 / 4,763,318 = 0.06 </p> <p> NVDA US Equity = 213,226 / 4,763,318 = 0.04 </p> <p> For Equal weight: </p> <p> Weights are divided proportionally among all tickers in the industry. </p> </td>
   </tr>
   <tr>
     <td> BR5 </td>
