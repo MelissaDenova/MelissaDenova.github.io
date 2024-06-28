@@ -8,31 +8,31 @@ layout: default
 <table>
   <tr>
     <td> Need Id </td>
-    <td> REQ-2024Q2-04 </td>
+    <td> REQ-2024Q2-03 </td>
   </tr>
   <tr>
     <td> Classification </td>
-    <td> Research </td>
+    <td> Business </td>
   </tr>
   <tr>
     <td> Requester </td>
-    <td> Fidel Selva </td>
+    <td> Luis de Villa </td>
   </tr>
     <tr>
     <td> Requester area </td>
-    <td> Research </td>
+    <td> Business </td>
   </tr>
     <tr>
     <td> Name of the requirement </td>
-    <td> x </td>
+    <td> Alternative data Dashboard </td>
   </tr>
     <tr>
     <td> Date of request </td>
-    <td> June 07, 2024 </td>
+    <td> May 14, 2024 </td>
   </tr>
   <tr>
     <td> Receptor </td>
-    <td> x </td>
+    <td> Eddy Zavaleta </td>
   </tr>
   </table>
   
@@ -46,9 +46,27 @@ layout: default
   </tr>
   <tr>
     <td> FR1 </td>
-    <td> x </td>
-    <td> x </td>
-    <td> BR1, BR2, BR3, BR4, BR5, BR6, BR7, BR8, BR9,BR10, BR11, BR12, BR13 </td>
+    <td> It is required to implement a dashboard focused on alternative data in order to be able to compare different sectors with respect to Market Cap and Equal Weight. </td>
+    <td> <p> Given that visibility is required for certain sectors with respect to Market Cap and Equal weight, when the user enters the eligible universe to be used, the dashboard should display the following data: </p> <p> 1. Table showing the summary of how much companies paid at certain periods, by Market Cap and by Equal Weight in each sector. </p> <p> 2. The difference between the percentage obtained in Market Cap minus Equal weight. </p> <p> 3. A graph showing the difference obtained in point 2. </p> </td>
+    <td> BR1, BR2, BR3, BR4, BR5, BR6, BR7, BR8 </td>
+  </tr>
+  <tr>
+    <td> FR2 </td>
+    <td> A dashboard needs to be implemented in order to measure, on any given date, certain statistical values for a list of tickers or ETFs. </td>
+    <td> <p> Since it is required to display statistical information of tickers over a certain period of time, when the user enters the eligible universe of tickers or ETFs and the date from which the statistics are required to be reviewed, the following data should be displayed: </p> <p> 1. Historical Percentile - Momentum (3M, 6M) over SPY.  </p> <p> 2. Average </p> <p> 3. Deviation </p> <p> 4. Relative (Index) vs Absolute Momentum. </p> </td>
+    <td> BR9, BR10, BR11, BR12, BR13 </td>
+  </tr>
+  <tr>
+    <td> FR3 </td>
+    <td> A dashboard needs to be developed in order to measure at any given date, certain statistical values for a list of strategies. </td>
+    <td> <p> Since it is required to visualise statistical information of strategies in a certain period of time, when the user enters the universe of strategies and the date from which the statistics are required to be reviewed, the following data should be displayed: </p> <p> 1.Historical Percentile - Momentum (3M, 6M) over Index.  </p> <p> 2.Average </p> <p> 3.Deviation </p> <p> 4.YTD </p> <p> 5.Absolute Momentum </p></td>
+    <td> BR14, BR15, BR16, BR17, BR18, BR19  </td>
+  </tr>
+  <tr>
+    <td> FR4 </td>
+    <td> A dashboard needs to be developed in order to be able to visualize the returns to N days that industries have had. </td>
+    <td> <p> Since it is required to visualize the returns that the industries have had, when the user enters the number of days for which the information is required, the system should display the following data: </p> <p> 1. A table with the returns on the requested days and the average value of these values. </p> <p> 2. A graph showing each industry vs. its TRR at n days. </p> </td>
+    <td> BR20, BR21, BR22 </td>
   </tr>
 </table>
 
