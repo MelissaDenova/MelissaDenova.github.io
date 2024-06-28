@@ -127,9 +127,12 @@ layout: default
     <td> BR8 </td>
     <td> <p> A graph should be generated showing how much companies have paid for Market Cap on Equal Weight. </p> <p> Example: </p> <p> The result obtained in BR7 are graphed. </p> </td>
   </tr>
+  <tr> 
+    <td colspan="2"> Ticker or ETF statistics </td>
+  </tr>
   <tr>
     <td> BR9 </td>
-    <td> x </td>
+    <td> <p> Having as input a list of tickers or ETFs and a date for the basis of the calculation, the historical percentile should be calculated as of the date set: </p> <p>Example</p> <p> 1.The calculation starts from a list of daily returns for each ticker at a given date. </p> <p> &#160; &#160; &#160; *For the example, it is considered to start with the prices in base 100; the returns of the current day should be added to the value of a previous day, with this we will obtain the prices of each ticker. </p><table> <tr> <td> </td> <td> RSPH US Equity </td> <td> RSPH US Equity </td></tr> <tr> <td> Date </td> <td> Returns </td> <td> Prices </td></tr> <tr> <td> </td> <td> </td> <td> 100 </td></tr> <tr> <td> 03/01/2012 </td> <td> 1.72% </td> <td> 101.72 </td></tr> <tr> <td> 04/01/2012</td> <td> -0.61% </td> <td> 101.10 </td></tr> <tr> <td> 05/01/2012 </td> <td> 0.37% </td> <td> 101.48 </td></tr></table> <p> &#160; &#160; &#160; *A comparison is made between the price of each ticker vs. the price of the chosen index (for the example, the SPY was considered). For this, the following formula is considered: </p> <p>&#160; &#160; &#160; Relative value = (Today's ticker price / Ticker price 126 days ago) / (Today's SPY price / SPY price 126 days ago). </p> </td>
   </tr>
   <tr>
     <td> BR10 </td>
