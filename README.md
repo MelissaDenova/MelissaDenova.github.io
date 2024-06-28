@@ -98,6 +98,14 @@ layout: default
     <td> BR5 </td>
     <td> For each strategy the SNN should be adjusted with one year of initialization data using X = Shift21 (MA21, MA63, MA252, Std21, Std63, Std252) and y = MA21.  </td>
   </tr>
+  <tr>
+    <td> BR6 </td>
+    <td> For each trading day, base data shall be received and transformed up to today's date. </td>
+  </tr>
+  <tr>
+    <td> BR7 </td>
+    <td> For each trading day, a partial adjustment shall be made to the TRR object for each strategy using the new data, i.e. SNN.partial_fit(X,y).</td>
+  </tr>
 </table>
 
 ### 5. LIST OF NON - FUNCTIONAL REQUIREMENTS
