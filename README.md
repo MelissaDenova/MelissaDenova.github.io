@@ -106,6 +106,30 @@ layout: default
     <td> BR7 </td>
     <td> For each trading day, a partial adjustment shall be made to the TRR object for each strategy using the new data, i.e. SNN.partial_fit(X,y).</td>
   </tr>
+  <tr>
+    <td> BR8 </td>
+    <td> For each trading day the TRR object shall be evaluated for the current day's data with SNN.predict(X). </td>
+  </tr>
+  <tr>
+    <td> BR9 </td>
+    <td> For each trading day, a vector of expected logarithmic returns should be filled in. </td>
+  </tr>
+  <tr>
+    <td> BR10 </td>
+    <td> <p> Markowitz optimization should be applied for the allocation of allocations, using the newly calculated expected returns.</p> <p> Note: The Markowitz model will be applied on strategies and ETFs and the following restriction must be considered: </p> <p> Strategies = Maximum of 20% allocation. </p> <p> ETFs = 100% allocation </p> </td>
+  </tr>
+  <tr> 
+    <td> BR11 </td>
+    <td> <p> Node parameters shall be equipped with lbfgs in case the trigger is ReLu.
+ </p> <p> Note: Any optimizer can be considered when using the hyperbolic and logistic tangent activator. </p> </td>
+  </tr>
+  <tr>
+    <td> <p> Net weights shall be equipped with lbfgs in case the trigger is ReLu. </p> <p> Note: Any optimizer can be considered when using the hyperbolic and logistic tangent activator. </p></td>
+  </tr>
+  <tr>
+    <td> BR13 </td>
+    <td> The network architecture shall have a 1 e-4 L2 regularization. </td>
+  </tr>
 </table>
 
 ### 5. LIST OF NON - FUNCTIONAL REQUIREMENTS
