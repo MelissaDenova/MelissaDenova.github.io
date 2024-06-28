@@ -78,15 +78,11 @@ layout: default
   </tr>
   <tr> 
     <td> PC1 </td>
-    <td> x </td>
+    <td> <p> The input data for the dashboard views shall be as follows: </p> <p> 1. Eligible universe of tickers, ETFs or strategies.</p><p> 2.Periods to be considered for the calculation.</p> <p> 3.For RF2 and RF3, the variable input will be the index to be used (considering that the daily composition of the chosen index must be taken into account). </p> </td>
   </tr>
   <tr> 
     <td> PC2 </td>
-    <td> x </td>
-  </tr>
-  <tr>
-    <td> PC3 </td>
-    <td> x </td>
+    <td> <p> The input data for the dashboard view in the Industries section will be as follows: </p> <p> 1.Number of days over which the TRR calculation is required. </p> </td>
   </tr>
 </table>
 
