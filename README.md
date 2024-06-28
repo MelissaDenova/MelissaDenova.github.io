@@ -75,31 +75,28 @@ layout: default
 ### 4. BUSINESS RULES
 <table>
   <tr>
-    <td> BR ID </td>
+    <td> ID BR </td>
     <td> Business rule </td>
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> <p> For auditing purposes, the following data must be stored for each action performed within the applications used in Tequila Capital: </p> <p> &#160; &#160; &#160; * ID event: Event number indicator. </p> <p> &#160; &#160; &#160; * Date time: Date - time at which the event 
-     occurs. </p> <p> &#160; &#160; &#160; * IP: IP of the device from which the action is performed. </p> <p> &#160; &#160; &#160; * User: User performing the action. </p> 
-     <p> &#160; &#160; &#160; * Action: State the activity carried out. </p> <p> &#160; &#160; &#160; * Data/ info: Describes the changes 
-     that are made within the application, showing the old value and the new value. </p> <p> &#160; &#160; &#160; * Applicative: Displays the name of the application where the action is being executed (RN2). </p> </td>
+    <td> Each strategy TRR should be transformed into log returns by applying log (TRR / lag (TRR)). </td>
   </tr>
-    <tr>
+  <tr>
      <td> BR2 </td>
-     <td> Within Tequila Capital, we have the following applicatives: Titania, Data, Builder, Account Manager, Excel AddIn and APIs. </td>
+     <td>The sample mean and variance should be calculated at 21, 63 and 152 days.</td>
   </tr>
   <tr>
      <td> BR3 </td>
-     <td> The values resulting from the log must be persisted in a file or table exclusively accessible by the service administrator user. </td>
+     <td> The square root of the variance shall be calculated. </td>
   </tr>
   <tr>
      <td> BR4 </td> 
-     <td> <p> A log level shall be considered for the actions that are recorded, i.e. it shall be shown to which of the following classifications each action belongs: </p> <p>  &#160; &#160; &#160; *Informative </p> <p>  &#160; &#160; &#160; *Critical</p></td>
+     <td> <p> For each strategy a sklearn SNN object with dense layer sizes 36 and 2, activation of ReLU should be made, ie, sklearn.neural_network. MLPRegressor ((36,2)). </p> <p> Note: In addition to ReLu, activation functions should be considered: </p> <p>  &#160; &#160; &#160; *Hyperbolic tangent </p> <p>  &#160; &#160; &#160; *Logistic </p></td>
   </tr>
   <tr>
     <td> BR5 </td>
-    <td> The records shall be unalterable.  </td>
+    <td> For each strategy the SNN should be adjusted with one year of initialization data using X = Shift21 (MA21, MA63, MA252, Std21, Std63, Std252) and y = MA21.  </td>
   </tr>
 </table>
 
