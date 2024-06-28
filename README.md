@@ -117,15 +117,15 @@ layout: default
   </tr>
   <tr>
     <td> BR6 </td>
-    <td> x </td>
+    <td> <p> Once the values of the RN5 have been obtained, the summary of each of the sectors for the different time periods considered, both Mark Cap and Equal Weight, must be visualised in a table.</p> <p>Example</p> <p>All the values obtained in the RN5 are added up by sector and the results are presented in a summary table.</p> </td>
   </tr>
   <tr>
     <td> BR7 </td>
-    <td> x </td>
+    <td> <p>A table showing the difference between the values obtained by Market Cap and those obtained by Equal Weight should be displayed.</p> <p> Example: </p> <p>The value obtained by Market Cap is subtracted from that obtained by Equal Weight for each sector for each TRR period considered.</p> <p> Information Technology </p> <p> TRR 30D = 2.13% - 1.14% = 0.99% </p> <p>TRR 60D = 3.01% - 0.96% = 2.05% </p> <p>TRR 90D = 5.69% - 1.91% = 3.78% </p> <p> TRR 180D = 25.19% - 20.65% = 4.54% </p> <p>TRR 360D = 59.71% - 38.31% = 21.40% </p> </td>
   </tr>
   <tr>
     <td> BR8 </td>
-    <td> x </td>
+    <td> <p> A graph should be generated showing how much companies have paid for Market Cap on Equal Weight. </p> <p> Example: </p> <p> The result obtained in BR7 are graphed. </p> </td>
   </tr>
   <tr>
     <td> BR9 </td>
