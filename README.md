@@ -183,7 +183,7 @@ Having this value</p> <p> 1.The product of 1 plus these yields is made to "n" da
   </tr>
    <tr>
     <td> BR20 </td>
-    <td> <p> Calculation of returns at different time periods should be carried out and presented as a summary in a table. </p> <p> Example: </p> <table> <tr> <td> Number</td> <td> Industry </td> <td> TRR 30 Days </td> <td> TRR 60 Days </td> <td> TRR 90 Days </td></tr> <tr> <td> 1 </td> <td> Software </td> <td> 0.98% </td> <td> 0.14% </td> <td> -3.61% </td></tr> <tr> <td> 1</td> <td>Technology Hardware, Storage & </td> <td> 4.15%</td> <td> 5.01% </td> <td> 12.62% </td></tr> <tr> <td> 1</td> <td>Semiconductors & Semiconductor </td> <td> 3.80% </td> <td> 5.41% </td> <td> 7.68% </td></tr> <tr> <td> Communications Equipment </td> <td> 1.41% </td> <td> 1.06% </td> <td> 3.29% </td></tr> <tr> <td>IT Services </td> <td> -9.22% </td> <td> -15.42% </td> <td> -14.84% </td></tr> </table> </td>
+    <td> <p> Calculation of returns at different time periods should be carried out and presented as a summary in a table. </p> <p> Example: </p> <table> <tr> <td> Number</td> <td> Industry </td> <td> TRR 30 Days </td> <td> TRR 60 Days </td> <td> TRR 90 Days </td></tr> <tr> <td> 1 </td> <td> Software </td> <td> 0.98% </td> <td> 0.14% </td> <td> -3.61% </td></tr> <tr> <td> 1</td> <td>Technology Hardware, Storage & </td> <td> 4.15%</td> <td> 5.01% </td> <td> 12.62% </td></tr> <tr> <td> 1</td> <td>Semiconductors & Semiconductor </td> <td> 3.80% </td> <td> 5.41% </td> <td> 7.68% </td></tr> <tr> <td> 1 </td> <td> Communications Equipment </td> <td> 1.41% </td> <td> 1.06% </td> <td> 3.29% </td></tr> <tr> <td> 1 </td> <td>IT Services </td> <td> -9.22% </td> <td> -15.42% </td> <td> -14.84% </td></tr> </table> </td>
   </tr>
    <tr>
     <td> BR21 </td>
