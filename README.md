@@ -47,7 +47,7 @@ layout: default
   <tr>
     <td> FR1 </td>
     <td> A methodology needs to be developed that systematically classifies stocks by large, medium and small market cap in order to generate investment strategies within these categories. </td>
-    <td> *<p>Each of the individual groups will adequately represent each sector according to its weight in a particular segment.</p> *<p>Since all stocks can only belong to a single group at any given time, they must provide a particular exposure to the size factor described by Fama and French.(See reference to Fama and French in the Framework document, section Hypotheses).</p> *<p>Since group 1 (large cap) strategies will have a smaller number of stocks, they should better approximate the distributions found in the market cap indices.</p> </td>
+    <td> <p>*Each of the individual groups will adequately represent each sector according to its weight in a particular segment.</p> <p>*Since all stocks can only belong to a single group at any given time, they must provide a particular exposure to the size factor described by Fama and French.(See reference to Fama and French in the Framework document, section Hypotheses).</p> <p>*Since group 1 (large cap) strategies will have a smaller number of stocks, they should better approximate the distributions found in the market cap indices.</p> </td>
     <td> BR1, BR2, BR3, BR4, BR5, BR6, BR7, BR8, BR9</td>
   </tr>
 </table>
@@ -64,7 +64,7 @@ layout: default
   </tr>
   <tr> 
     <td> PC2 </td>
-    <td> <p>The data that will be needed for the implementation of the model will be: </p> *<p>Market Cap</p> *<p>AOA (traded volume)</p> *<p>Sector and industry data</p> <p>Note: All data for the model layout was taken exactly as downloaded from Excel AddIn.</p> </td>
+    <td> <p>The data that will be needed for the implementation of the model will be: </p> <p>*Market Cap</p> <p>*AOA (traded volume)</p> <p>*Sector and industry data</p> <p>Note: All data for the model layout was taken exactly as downloaded from Excel AddIn.</p> </td>
   </tr>
   <tr>
     <td> PC3 </td>
