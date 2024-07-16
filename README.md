@@ -104,7 +104,7 @@ layout: default
   </tr>
   <tr>
     <td> BR7 </td>
-    <td> <p>For all three groups, the following six strategies should be implemented as a first test case:</p> *<p>High Momentum </p> *<p>High Volatility</p> *<p>•	High YoY Revenue Growth</p> *<p>Low EV/Sales</p> *<p>High Free Cash Flow / Market Cap</p> *<p>•	High EBIT Margin</p> <p>Note: For later cases, the strategies to be implemented will be parameterizable.</p> </td>
+    <td> <p>For all three groups, the following six strategies should be implemented as a first test case:</p> <p>*High Momentum </p> <p>*High Volatility</p> <p>*High YoY Revenue Growth</p> <p>*Low EV/Sales</p> <p>*High Free Cash Flow / Market Cap</p> <p>*High EBIT Margin</p> <p>Note: For later cases, the strategies to be implemented will be parameterizable.</p> </td>
   </tr>
   <tr>
     <td> BR8 </td>
