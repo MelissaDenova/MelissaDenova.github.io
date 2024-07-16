@@ -8,7 +8,7 @@ layout: default
 <table>
   <tr>
     <td> Need Id </td>
-    <td> REQ-2024Q2-02 </td>
+    <td> REQ-2024Q2-07 </td>
   </tr>
   <tr>
     <td> Classification </td>
@@ -16,7 +16,7 @@ layout: default
   </tr>
   <tr>
     <td> Requester </td>
-    <td> Luis Cárdenas</td>
+    <td> Jaime Vidal </td>
   </tr>
     <tr>
     <td> Requester area </td>
@@ -24,11 +24,11 @@ layout: default
   </tr>
     <tr>
     <td> Name of the requirement </td>
-    <td> Fractal 0 CAGR Method </td>
+    <td> Fractal 1 Rule Based </td>
   </tr>
     <tr>
     <td> Date of request </td>
-    <td> May 28, 2024 </td>
+    <td> June 18, 2024 </td>
   </tr>
   <tr>
     <td> Receptor </td>
@@ -46,8 +46,8 @@ layout: default
   </tr>
   <tr>
     <td> FR1 </td>
-    <td> A CAGR-based model needs to be developed to rank investment strategies by historical performance in order to identify long-term trends and short-term seasonal changes. </td>
-    <td> Since it is required to rank investment strategies, the best performing strategies should be obtained when calculating cumulative CAGR and Rolling.</td>
+    <td> It is required to implement a method based on the variable Uptrend that selects in which portfolio to invest, within two possible options. </td>
+    <td> Since a portfolio selection method needs to be implemented, when the user enters the variables to be analyzed, the system will select between portfolio A and B as the best option. </td>
     <td> BR1, BR2, BR3, BR4, BR5, BR6 </td>
   </tr>
 </table>
@@ -60,21 +60,9 @@ layout: default
   </tr>
   <tr> 
     <td> PC1 </td>
-    <td> The analyzed data will be open to any time series required. </td>
+    <td> <p> As a basis for the requirement there are two time series (Portfolio A and Portfolio B).</p> <p>The time series can be of any asset type.</p> <p> Example:</p> <p>Blend 1, Blend 2, Blend 3, ETFs, Stocks, etc. can be considered.</p> </td>
   </tr>
-  <tr> 
-    <td> PC2 </td>
-    <td> A T2 delay is considered. </td>
-  </tr>
-  <tr>
-    <td> PC3 </td>
-    <td> Scalability was not assumed, i.e. the capacity of the strategy was not considered. </td>
-  </tr>
- <tr>
-  <td> PC4 </td>
-  <td> No broker fees were considered.</td>
- </tr>
-</table>
+  </table>
 
 ### 4. BUSINESS RULES
 <table>
@@ -84,29 +72,29 @@ layout: default
   </tr>
   <tr>
     <td> BR1 </td>
-    <td> <p>Starting from the time series to be analyzed, 2 rankings should be made using the CAGR variable:</p> <p> 1.Cumulative CAGR: All data available so far should be considered. </p> <p> 2.CAGR Rolling: Rolling windows shall be considered at a certain variable size (the size of the window shall be considered as input).</p> </td>
+    <td> The calculation of the uptrend variable shall be performed only for portfolio "A". </td>
   </tr>
   <tr>
      <td> BR2 </td>
-     <td> <p> The amount available should be split between the two methods, i.e. X% of the total amount should be allocated to Cumulative CAGR and 1-X% to Rolling CAGR.</p> <p>Note: The percentage to be allocated to each method should be considered as a variable input respecting that the sum of both should give 100% of the amount available. </p> </td>
+     <td> <p>Initially, the calculation of Momentum should be performed using the following formula:</p> <p>MTUM = Price_TRR / MA(N)</p> <p>Where N is the number of days to be considered.</p> <p>For the first user test case, the periods to be considered for the Momentum calculation will be the following:</p> <p>MTUM_13D</p> <p>MTUM_30D</p> <p>MTUM_50D</p> <p>MTUM_100D</p> <p>MTUM_150D</p> <p>MTUM_200D</p> <p>Note: For subsequent tests, the periods considered for the Momentum calculation shall be flexible.</p></td>
   </tr>
   <tr>
      <td> BR3 </td>
-     <td> <p>Once both rankings are available, the selection of the required top should be made, considering that it must have a minimum of one top two in each ranking. </p> <p>The number of top should be considered as a variable input and may be different for Cumulative CAGR and Rolling CAGR.</p> </td>
+     <td> <p>Once the Momentum calculation for the different periods selected has been made, the arithmetic mean of these values must be calculated to form the uptrend variable. </p> <p>Expressed in formula we would have:</p> <p>Uptrend = ((MTUM (N1) + MTUM (N2) + MTUM (N3) + MTUM (Nm)) / X </p> <p>Where N1, N2, N3, Nm... will be the periods (in days) that will be used for each MTUM, and X will be the number of MTUMs to be used.</p> </td>
   </tr>
   <tr>
      <td> BR4 </td> 
-     <td> <p> Having selected the top, the allocation should be assigned with equal weights (EW). </p> <p> Example:</p> <p>If for Cumulative CAGR you have a top 4, then an allocation of 25% will be assigned to each selected strategy.</p> <p>Note: A strategy can be selected by both methods.</p> </td>
+     <td> <p>Once the uptrend value is available, an optimal threshold should be set in order to have the criteria under which the switch between portfolio A and portfolio B will be made. </p> <p>For the first user test case, the value considered for the Threshold will be 0.98; for subsequent tests, the value of the Threshold should be flexible.</p> </td>
   </tr>
   <tr>
     <td> BR5 </td>
-    <td> The calculation shall be made on a daily basis, considering a T2 delay.  </td>
+    <td> <p>For the selection of the portfolio, the following rule must be considered: </p> <p>If the uptrend value obtained for portfolio "A" is greater than or equal to the value set as Threshold, then invest in portfolio "A", otherwise invest in portfolio B. </p> <p>Note: For the selection of the portfolio, a Delay T2 must be considered.</p> </td>
   </tr>
   <tr>
     <td> BR6 </td>
-    <td> The rebalancing deadline shall be considered as a variable input. </td>
+    <td> <p>Once the portfolio is selected, the selection is respected until the "n" days set for rebalancing have elapsed. </p> <p>Note: For the first user test case, 21 days shall be considered; for subsequent tests, the number of days considered for rebalancing shall be flexible.</p> </td>
   </tr>
-</table>
+   </table>
 
 ### 5. LIST OF NON - FUNCTIONAL REQUIREMENTS
 <table>
@@ -151,7 +139,9 @@ layout: default
    * <p align="justify"> Validation and sign-off of deliverables according to the stages of the product. </p>
 
 ### 7.2 BACKTESTING ASSUMPTIONS
-* <p> NA </p>
+* <p>Benchmark (Buy and hold portfolio A and portfolio B)</p>
+* <p>Broker Fees are not considered to be</p>
+* <p>Scalability was not assumed, i.e. the capacity of the strategy was not considered.</p>
 
 ### 8. RESTRICTIONS TO BE CONSIDERED
 <p align="justify"> The needs and requirement requests for the development area are defined in the ‘Software Requirements Specification (SRS)’ document that corresponds to the scope requested by the business areas, in case of an adjustment, a change control and redefinition of the work schedule will be carried out. </p>
@@ -196,7 +186,7 @@ layout: default
   </tr>
   <tr>
     <td> Framework </td>
-    <td> <A HREF="https://tequilacapital.sharepoint.com/:w:/s/TequilaCapital/EbppGyyo04pAnoaOm9sDiokBvufkYwpTinIDgmAn3HjHlg?e=59M1Qf"> Framework Fractal 0 </A> </td>
+    <td> <A HREF="https://tequilacapital.sharepoint.com/:w:/s/TequilaCapital/EbhIH9DsmVxLtjZEKS02vZkBANtCoiNHiGs8asUUHwk70w?e=O7G38o"> Framework Fractal 1 </A> </td>
   </tr>
 </table>
 
@@ -208,10 +198,6 @@ layout: default
   </tr>
   <tr>
     <td> <p> Melissa González </p> <p> Area: Development </p> <p> Role: Analyst </p></td>
-    <td> <p> Luis Cárdenas </p> <p> Area: Research </p> <p> Role: Portfolio Manager </p></td>
+    <td> <p> Jaime Vidal </p> <p> Area: Research </p> <p> Role: Quant </p></td>
   </tr>
 </table>
-
-
-
- 
