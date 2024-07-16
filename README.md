@@ -200,7 +200,7 @@ layout: default
   </tr>
   <tr>
     <td> Mock - up </td>
-    <td>[Mock-up](https://tequilacapital.sharepoint.com/:w:/s/TequilaCapital/ETszHqTNRLtMjWv7WDKZidgBwlJQ9ldT3CI9Grj15fx2GA?e=wb4euC) </td>
+    <td><A HREF="https://tequilacapital.sharepoint.com/:w:/s/TequilaCapital/ETszHqTNRLtMjWv7WDKZidgBwlJQ9ldT3CI9Grj15fx2GA?e=wb4euC"> Mock-up </A></td>
   </tr>
 </table>
 
