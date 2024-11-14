@@ -4,7 +4,7 @@ about: Ejemplo
 title: Ejemplo
 labels: bug
 assignees: MelissaDenova
-projects: Prueba template
+project: Prueba template
 ---
 
 Ejemplo
